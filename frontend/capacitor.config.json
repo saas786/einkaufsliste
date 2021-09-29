@@ -1,0 +1,6 @@
+{
+	"appId": "eu.jan-krueger.einkaufsliste",
+	"appName": "Einkaufsliste",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
