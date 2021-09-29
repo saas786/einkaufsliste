@@ -1,0 +1,27 @@
+{
+  "name": "einkaufsliste",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "postinstall": "cd frontend && yarn && cd ../backend && yarn",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run start:dev",
+    "start:backend:debug": "cd backend && npm run start:debug",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flusinerd/einkaufsliste.git"
+  },
+  "author": "Jan Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flusinerd/einkaufsliste/issues"
+  },
+  "homepage": "https://github.com/Flusinerd/einkaufsliste#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "standard-version": "^9.3.1"
+  }
+}
