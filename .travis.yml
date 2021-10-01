@@ -1,27 +1,16 @@
 language: node_js
 node_js:
   - "14.18.0"
+
+notifications:
+  email: false
+
 branches:
   only:
     - master
-before_script:
-  - cd frontend
-  - yarn global add ionic
-script:
-  - ionic build --prod -- --base-href ./
-
-
-language: generic
-
-notifications:
-    email: false
-
-branches:
-    only:
-        - master
 matrix:
-    include:
-        - env: TARGET=backend
-        - env: TARGET=frontend
+  include:
+    - env: TARGET=backend
+    - env: TARGET=frontend
 
 script: if .travis/build-condition.sh $TRAVIS_COMMIT_RANGE $TARGET; then echo "$TARGET is being built" && cd $TARGET && yarn && npm run build; else echo "$TARGET is NOT being built"; fi
