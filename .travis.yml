@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+ — "14.15.4"
+branches:
+ only:
+ — master
+before_script:
+ - cd frontend
+ — yarn global add ionic
+ — yarn
+script:
+ — ionic build --prod -- --base-href ./
