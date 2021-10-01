@@ -7,6 +7,21 @@ branches:
 before_script:
   - cd frontend
   - yarn global add ionic
-  - yarn
 script:
   - ionic build --prod -- --base-href ./
+
+
+language: generic
+
+notifications:
+    email: false
+
+branches:
+    only:
+        - master
+matrix:
+    include:
+        - env: TARGET=backend
+        - env: TARGET=frontend
+
+script: if .travis/build-condition.sh $TRAVIS_COMMIT_RANGE $TARGET; then echo "$TARGET is being built" && cd $TARGET && yarn && npm run build; else echo "$TARGET is NOT being built"; fi
