@@ -5,7 +5,7 @@
   "homepage": "https://jan-krueger.eu",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ionic serve",
     "build": "ionic build",
     "test": "ng test",
     "lint": "ng lint",
