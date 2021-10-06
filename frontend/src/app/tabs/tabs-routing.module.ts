@@ -8,29 +8,50 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'grocery-list',
+        loadChildren: () =>
+          import('./grocery-list/grocery-list.module').then(
+            (m) => m.GroceryListPageModule
+          ),
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'scan',
+        loadChildren: () =>
+          import('./scan/scan.module').then((m) => m.ScanPageModule),
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'inventory',
+        loadChildren: () =>
+          import('./inventory/inventory.module').then(
+            (m) => m.InventoryPageModule
+          ),
+      },
+      {
+        path: 'recipies',
+        loadChildren: () =>
+          import('./recipies/recipies.module').then(
+            (m) => m.RecipiesPageModule
+          ),
+      },
+      {
+        path: 'settings',
+        loadChildren: () =>
+          import('./settings/settings.module').then(
+            (m) => m.SettingsPageModule
+          ),
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
-        pathMatch: 'full'
-      }
-    ]
+        redirectTo: '/tabs/home',
+        pathMatch: 'full',
+      },
+    ],
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full'
-  }
+    redirectTo: '/tabs/grocery-list',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({

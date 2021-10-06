@@ -1,19 +1,18 @@
-.background {
-  background: url("../../assets/login.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+ion-content {
   height: 100%;
+  width: 100%;
   padding: 0;
 }
 
-#login-form {
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   ion-item {
-    --background: none;
-    --color: var(--ion-color-dark);
-    ion-label {
-      --color: var(--ion-color-dark);
-    }
+    --padding-start: 0;
   }
 }

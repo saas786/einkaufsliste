@@ -1,10 +1,30 @@
 <ion-content>
-  <div class="background">
-    <form id="login-form">
-      <ion-item>
-        <ion-label position="floating" color="dark">Floating Label</ion-label>
-        <ion-input></ion-input>
-      </ion-item>
-    </form>
+  <div class="content">
+    <ion-icon
+      name="cart-outline"
+      style="font-size: 124px; margin-left: -14px; margin-top: 48px"
+    ></ion-icon>
+    <span style="margin-top: 16px; margin-bottom: 32px; font-size: xx-large"
+      >Login</span
+    >
+    <ion-item style="width: 60%; max-width: 300px" mode="ios">
+      <ion-label position="floating" mode="ios">Username</ion-label>
+      <ion-input type="text" autocomplete="username" mode="ios"></ion-input>
+    </ion-item>
+    <ion-item style="width: 60%; max-width: 300px" mode="ios">
+      <ion-label position="floating" mode="ios">Password</ion-label>
+      <ion-input
+        type="password"
+        autocomplete="current-password"
+        mode="ios"
+      ></ion-input>
+    </ion-item>
+    <ion-button
+      expand="block"
+      color="secondary"
+      style="width: 60%; margin-top: 16px; max-width: 300px"
+      (click)="onLogin()"
+      >Login</ion-button
+    >
   </div>
 </ion-content>

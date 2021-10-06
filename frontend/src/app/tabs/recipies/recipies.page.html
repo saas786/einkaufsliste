@@ -1,0 +1,20 @@
+<ion-header translucent="true">
+  <ion-toolbar>
+    <ion-buttons slot="primary">
+      <ion-button routerLink="/tabs/recipies/all"
+        >Alle anzeigen <ion-icon name="chevron-forward"></ion-icon
+      ></ion-button>
+    </ion-buttons>
+    <ion-title>Rezepte</ion-title>
+  </ion-toolbar>
+  <ion-searchbar placeholder="Suchen"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Schnelles</ion-list-header>
+    <app-recipe-item></app-recipe-item>
+    <ion-list-header>Deftiges</ion-list-header>
+    <ion-list-header>Gesund</ion-list-header>
+  </ion-list>
+</ion-content>
