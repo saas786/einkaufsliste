@@ -1,0 +1,114 @@
+obst:
+  Apfel:
+    min: 2
+    unit: 'pcs'
+
+  Birne:
+    min: 2
+    unit: 'pcs'
+
+  Bannane:
+    min: 1
+    unit: 'pcs'
+
+gemuese:
+  Gurke:
+    min: 1
+    unit: 'pcs'
+
+  Tomaten:
+    min: 300
+    unit: 'g'
+
+frische:
+  Eier:
+    min: 6
+    unit: 'pcs'
+
+tiefkuehl:
+  Pizza:
+    min: 1
+    unit: 'pcs'
+
+suesses:
+
+tee:
+  Yorkshire Tea:
+    min: 50
+    unit: 'pcs'
+
+getraenke:
+  Eistee:
+    min: 5
+    unit: 'L'
+
+  Wasser:
+    min: 10
+    unit: 'L'
+
+drogerie:
+  Klopapier:
+    min: 5
+    unit: 'pcs'
+
+haushalt:
+  Küchenrollen:
+    min: 2
+    unit: 'pcs'
+
+tiere:
+
+nudeln:
+  Spaghetti:
+    min: 300
+    unit: 'g'
+
+backen:
+  Mehl:
+    min: 1000
+    unit: 'g'
+
+  Zucker:
+    min: 1000
+    unit: 'g'
+
+muesli:
+  Schokomüsli:
+    min: 300
+    unit: 'g'
+
+  Früchtemüsli:
+    min: 300
+    unit: 'g'
+
+fruehstueck:
+  Mortadella:
+    min: 200
+    unit: 'g'
+
+  Nutella:
+    min: 1
+    unit: 'pcs'
+
+  Cervelat:
+    min: 100
+    unit: 'g'
+
+  Bacon:
+    min: 200
+    unit: 'g'
+
+konserven:
+
+oel:
+  Oliven-Öl:
+    min: 200
+    unit: 'mL'
+
+  Sonnenblumen-Öl:
+    min: 400
+    unit: 'mL'
+
+fleisch:
+
+gewuerze:
