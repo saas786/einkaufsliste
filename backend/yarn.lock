@@ -638,7 +638,7 @@
     tslib "2.3.1"
     uuid "8.3.2"
 
-"@nestjs/config@^1.0.2":
+"@nestjs/config@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@nestjs/config/-/config-1.0.2.tgz#2eec40f7c4c09fcbe3ece1dc5025e2145eb275f1"
   integrity sha512-2q8CcI4UszJ110uDacZe09sj2EJzQztqEOvPXoYaoXoeWWMEwIovAF7cyiBpJWJS+LikpbZyHqtA6p3//mSiOg==
@@ -663,7 +663,7 @@
     tslib "2.3.1"
     uuid "8.3.2"
 
-"@nestjs/mongoose@^9.0.0":
+"@nestjs/mongoose@9.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@nestjs/mongoose/-/mongoose-9.0.0.tgz#d5f4c8c20a826092708f61b41cde02609fc64737"
   integrity sha512-D2Aotjzm3VR0JjdslcpXDAuxHHR2DpLG1Bny1Dv5m5BaubkGtsgqdZA+HWfp2WuKrfRiG/1GKT9j6r9bD3kKTA==
@@ -894,7 +894,7 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/js-yaml@^4.0.3":
+"@types/js-yaml@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.3.tgz#9f33cd6fbf0d5ec575dc8c8fc69c7fec1b4eb200"
   integrity sha512-5t9BhoORasuF5uCPr+d5/hdB++zRFUTMIZOzbNkr+jZh3yQht4HYbRDyj9fY8n2TZT30iW9huzav73x4NikqWg==
@@ -3416,6 +3416,13 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
+js-yaml@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
+
 js-yaml@^3.13.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
@@ -3423,13 +3430,6 @@ js-yaml@^3.13.1:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
-
-js-yaml@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
-  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
-  dependencies:
-    argparse "^2.0.1"
 
 jsdom@^16.6.0:
   version "16.7.0"
@@ -3761,7 +3761,7 @@ mongodb@4.1.2:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@^6.0.9:
+mongoose@6.0.9:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.0.9.tgz#833a300f515dc17fb88850f5f89753ec69623411"
   integrity sha512-j9wcL8sltyIPBzMv785HFuGOdO8a5b70HX+e1q5QOogJxFofEXQoCcuurGlFSOe6j8M25qxHLzeVeKVcITeviQ==
