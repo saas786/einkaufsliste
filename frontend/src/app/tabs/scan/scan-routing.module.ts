@@ -3,10 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ScanPage } from './scan.page';
 
+import { ResultListComponent } from './result-list/result-list.component';
+
 const routes: Routes = [
   {
     path: '',
     component: ScanPage
+  },
+  {
+    path: 'all',
+    component: ResultListComponent
   }
 ];
 

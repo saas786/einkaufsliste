@@ -1251,6 +1251,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@capacitor-community/barcode-scanner@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/barcode-scanner/-/barcode-scanner-2.0.1.tgz#49ae48b111804388cc20d37d7bc04a36dbb2bac8"
+  integrity sha512-x5CWW57SgnKCuXj0re+7Q+5VrjnuaXAu0vEWOKwj2q154+R0KawEcf42HfEUcgLvbolp9A9+2Cl/5U7vRApI9w==
+
 "@capacitor/app@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-1.0.3.tgz#d9c7f774a1b3a93786c64477cb9adfb9d00a66bb"

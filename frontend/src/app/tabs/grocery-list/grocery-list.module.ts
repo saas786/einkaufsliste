@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { GroceryListPageRoutingModule } from './grocery-list-routing.module';
 
 import { GroceryListPage } from './grocery-list.page';
-import { GroceryItemComponent } from './grocery-item/grocery-item.component';
 
 @NgModule({
   imports: [
@@ -16,6 +15,6 @@ import { GroceryItemComponent } from './grocery-item/grocery-item.component';
     IonicModule,
     GroceryListPageRoutingModule,
   ],
-  declarations: [GroceryListPage, GroceryItemComponent],
+  declarations: [GroceryListPage],
 })
 export class GroceryListPageModule {}
