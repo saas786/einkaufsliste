@@ -9,4 +9,16 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <ion-list>
+    <ion-item routerLink="create" button="true">
+      <ion-icon name="add" slot="start"></ion-icon>
+      <ion-label>Benutzer anlegen</ion-label>
+    </ion-item>
+
+    <ion-item routerLink="manage" button="true">
+      <ion-icon name="person" slot="start"></ion-icon>
+      <ion-label>Benutzer verwalten</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

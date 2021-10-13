@@ -8,9 +8,23 @@ import { SettingsPageRoutingModule } from './settings-routing.module';
 
 import { SettingsPage } from './settings.page';
 import { UserSettingsPage } from './user/user.component';
+import { CreateUserComponent } from './user/create/create.component';
+import { MyCommonModule } from '../../common/common.module';
+import { ManageUsersComponent } from './user/manage/manage.component';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule, SettingsPageRoutingModule],
-  declarations: [SettingsPage, UserSettingsPage],
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    SettingsPageRoutingModule,
+    MyCommonModule,
+  ],
+  declarations: [
+    SettingsPage,
+    UserSettingsPage,
+    CreateUserComponent,
+    ManageUsersComponent,
+  ],
 })
 export class SettingsPageModule {}
