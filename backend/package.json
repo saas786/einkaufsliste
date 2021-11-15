@@ -28,7 +28,7 @@
     "@nestjs/platform-express": "8.2.0",
     "@types/js-yaml": "4.0.4",
     "js-yaml": "4.1.0",
-    "mongoose": "6.0.12",
+    "mongoose": "6.0.13",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
     "rxjs": "7.4.0"
